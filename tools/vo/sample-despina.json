@@ -1,0 +1,12 @@
+{
+  "voice": "Despina",
+  "model": "gemini-2.5-flash-preview-tts",
+  "style": "in a smooth, warm, velvety voice like a premium radio advert, relaxed, confident and inviting, with a soft smile",
+  "pace": "Smooth, unhurried pace with natural pauses.",
+  "en": [
+    "Run a business? You don't need an accountant for your books. Filsa. Superintelligence for your business. Download Filsa now."
+  ],
+  "ar": [
+    "عندك شركة؟ ما تحتاج محاسب عشان دفاترك. فلسة، الذكاء الخارق لأعمالك. حمّل فلسة الحين."
+  ]
+}
