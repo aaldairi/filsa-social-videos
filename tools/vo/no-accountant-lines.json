@@ -1,0 +1,20 @@
+{
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts",
+  "style": "in a light, upbeat, cheerful mood, with a smile in the voice, warm and clear",
+  "pace": "Relaxed, natural pace.",
+  "en": [
+    "You know how the books need an accountant... or software that takes a course to learn?",
+    "What we do: you send a bank alert, or a receipt photo on WhatsApp, and Filsa files it for you.",
+    "Your VAT return is prepared. You just review it, and file it.",
+    "In fact, Sara, your AI CFO, explains every number.",
+    "No accountant. No complicated software. Filsa."
+  ],
+  "ar": [
+    "تعرف كيف الدفاتر تبيلها محاسب... أو برنامج تبيله دورة عشان تفهمه؟",
+    "اللي نسويه هو إنك ترسل تنبيه البنك، أو صورة الإيصال على الواتساب، وفلسة تسجّلها عنك.",
+    "إقرار الضريبة يكون جاهز. إنت بس تراجعه وتقدّمه.",
+    "وفي الواقع، سارة، مديرتك المالية الذكية، تشرح لك كل رقم.",
+    "بدون محاسب. وبدون برامج معقّدة. فلسة."
+  ]
+}
