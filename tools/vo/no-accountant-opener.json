@@ -1,0 +1,12 @@
+{
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts",
+  "style": "in a light, upbeat, cheerful mood, with a smile in the voice, warm and clear",
+  "pace": "Relaxed, natural pace.",
+  "en": [
+    "Run a business? You don't need an accountant for your books."
+  ],
+  "ar": [
+    "عندك شركة؟ ما تحتاج محاسب عشان دفاترك."
+  ]
+}
