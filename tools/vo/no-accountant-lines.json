@@ -1,6 +1,8 @@
 {
   "voice": "Kore",
   "model": "gemini-2.5-flash-preview-tts",
+  "style": "in a light, upbeat, cheerful mood, with a smile in the voice, warm and clear",
+  "pace": "Relaxed, natural pace.",
   "en": [
     "You know how the books need an accountant... or software that takes a course to learn?",
     "What we do: you send a bank alert, or a receipt photo on WhatsApp, and Filsa files it for you.",

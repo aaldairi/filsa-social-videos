@@ -9,7 +9,8 @@ const wav = (pcm, rate) => { const h = Buffer.alloc(44); h.write('RIFF', 0); h.w
   h.writeUInt32LE(16, 16); h.writeUInt16LE(1, 20); h.writeUInt16LE(1, 22); h.writeUInt32LE(rate, 24); h.writeUInt32LE(rate * 2, 28); h.writeUInt16LE(2, 32); h.writeUInt16LE(16, 34);
   h.write('data', 36); h.writeUInt32LE(pcm.length, 40); return Buffer.concat([h, pcm]); };
 for (const lang of ['en', 'ar']) for (const [i, text] of cfg[lang].entries()) {
-  const prompt = `Say the following warmly, calmly and clearly as a friendly woman from Bahrain narrating a short business video, in ${lang === 'ar' ? 'Bahraini Gulf Arabic' : 'English'}. Unhurried pace. Speak only the words after this line:\n${text}`;
+  const style = cfg.style || 'warmly, calmly and clearly';
+  const prompt = `Say the following ${style} as a friendly woman from Bahrain narrating a short business video, in ${lang === 'ar' ? 'Bahraini Gulf Arabic' : 'English'}. ${cfg.pace || 'Unhurried pace.'} Speak only the words after this line:\n${text}`;
   let ok = false;
   for (let attempt = 1; attempt <= 3 && !ok; attempt++) {
     const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${cfg.model}:generateContent`, { method: 'POST',
