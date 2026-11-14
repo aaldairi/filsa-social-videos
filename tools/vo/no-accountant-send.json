@@ -1,0 +1,12 @@
+{
+  "voice": "Kore",
+  "model": "gemini-2.5-flash-preview-tts",
+  "style": "in a light, upbeat, cheerful mood, with a smile in the voice, warm and clear",
+  "pace": "Relaxed, natural pace.",
+  "en": [
+    "Snap a receipt and send it to the Filsa app, or to Filsa on WhatsApp. Filsa files it for you."
+  ],
+  "ar": [
+    "صوّر الإيصال وأرسله لتطبيق فلسة، أو لفلسة على الواتساب، وفلسة تسجّله عنك."
+  ]
+}
